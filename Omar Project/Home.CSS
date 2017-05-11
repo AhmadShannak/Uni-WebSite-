@@ -15,7 +15,7 @@ section#banner div.bg-color nav.navbar-default div.container-fluid div.col-md-12
 body section#banner div.bg-color{
 	/*background-color: rgba(13, 70, 83, 0.78);*/
 	background-color: rgba(5, 0, 0, 0.78);
-	min-height: 650px;
+	min-height: 680px;
 }
 /*CONTROLING BACK GROUND IMG*/
 #banner{
@@ -99,7 +99,7 @@ a.btn-about,a.btn-about:hover{
 	border-radius: 3px;
 	color: #fff;
 }
-
+/*********************************************************************************/
 /*NOW INTRO*/
 /*PADDING BETWEEN EACH SECTION*/
 .section-padding{
@@ -123,7 +123,7 @@ section#psut-intro div.col-md-4{
 	color: #999999;
 	font-family: 'Raleway', sans-serif;
 }
-/**/
+/*HR INSIDE THE PSUT-INTRO SECTION*/
 section#psut-intro hr{
 	height: 3px;
 	width: 120px;
@@ -131,20 +131,50 @@ section#psut-intro hr{
 	border: 0;
 	margin:20px 0px 20px 0px;
 }
-#acadimics-img{
-	margin-bottom: 20px;
-}
+/*H4 INSIDE THE PSUT-INTRO SECTION*/
 section#psut-intro div h4{
 	color:#222222;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
 	margin-bottom: 20px;
 }
+/*TO MARG BOT BETWEEN ICONS IN THE PSUT INTRO*/
 .marg-bot{
 	margin-bottom: 20px;
 }
+/*********************************************************************************/
 /*NOW PSUT-COURSES*/
 /*COURSES SECTION BACKGROUND*/
 section#psut-courses{
 	background-color: white;
+}
+/*COURSES SECTION HR*/
+section#psut-courses hr{
+	height: 3px;
+	width: 120px;
+	background:#ffb377;
+	border: 0;
+	margin:20px 0px 20px 0px;
+}
+/*COURSES SECTION H2(THE HEADER OF THE SECTION)*/
+section#psut-courses h2{
+	border:0;
+	width: 120px;
+	color:#222222;
+	line-height: 20px;
+	margin: 0;
+}
+/*COURSES SECTION THUMBNAILS IMG PROPRTIES*/
+section#psut-courses div.col-md-3 div.thumbnail img{
+	width:100%;
+	height:200px;
+}
+/*COURSE SECTION THUMBNAILS HEADERS */
+section#psut-courses div.col-md-3 div.thumbnail div.caption h3{
+	font-family: 'Raleway', sans-serif;
+}
+/*COURSE SECTION THUMBNAILS PARGRAPHS */
+section#psut-courses div.col-md-3 div.thumbnail div.caption p{
+	font-family: 'Oxygen', sans-serif;
+
 }
