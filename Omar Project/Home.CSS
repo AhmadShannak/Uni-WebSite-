@@ -1,0 +1,121 @@
+/*ALL*/
+*{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 20px;
+	color: #999999;
+	font-size: 16px;
+}
+/*NOW NAV*/
+/* CONTROLING NAVBAR BRAND FONT*/
+section#banner div.bg-color nav.navbar-default div.container-fluid div.col-md-12 div.navbar-header a.navbar-brand{
+	font-size:20px;
+	font-family: 'Oxygen', sans-serif;
+}
+/*CONTROLING BACKGROUND COLOR*/
+body section#banner div.bg-color{
+	/*background-color: rgba(13, 70, 83, 0.78);*/
+	background-color: rgba(5, 0, 0, 0.78);
+	min-height: 650px;
+}
+/*CONTROLING BACK GROUND IMG*/
+#banner{
+	background: url(https://bootstrapmade.com/demo/themes/Medilab/img/bg-banner.jpg) no-repeat fixed;
+	background-size: cover;
+	position: relative;
+	min-height: 650px;
+}
+/*NAVBAR PROPRTIES + BACKGROUND(BEFORE SCROLLING)*/
+body section#banner div.bg-color nav.navbar-default{
+	background-color: transparent;
+	border:0px;
+	padding:20px 0px;
+	transition: all 0.3s;
+
+}
+/*CONTROLING THE BACKGROUND OF THE NAVBAR BUTTONS ON HOVER*/
+/*THIS CODE HAVE NO POINT SINCE I ALREADY GOT RID OF THE BUTTON IWAS TRYING TO PUT IN THE NAVBAR*/
+/*LEFT IT JUST IN CASE IWANT TO ADD BUTTON LATER ON*/
+body section#banner div.bg-color nav.navbar-default div.container-fluid div.col-md-12 div.navbar-header button:hover{
+	/*background-color: rgba(12, 184, 182, 0.21);*/
+	background-color: rgba(0, 0, 0, 0.38);
+}
+/*CONTROLING THE FONT COLOR OF THE NAVBAR BRAND*/
+body section#banner div.bg-color nav.navbar-default div.container-fluid div.col-md-12 div.navbar-header a.navbar-brand{
+	/*color: rgb(130,70,83);*/
+	color:#fff;
+}
+/*CONTROLING THE NAVBAR ITEMSS (COLORING+TEXT TRANSFORM)*/
+body section#banner div.bg-color nav.navbar-default div.container-fluid div.collapse ul.nav li a{
+	color:#fff;
+	text-transform: uppercase;
+
+}
+/*CONTROLING THE BACK GROUND OF THE HOME BUTTON ON THE NAVBAR*/
+body section#banner div.bg-color nav.navbar-default div.container-fluid div.collapse ul.nav li a#home{
+   /*background-color: rgba(12, 184, 182, 0.21);*/
+   background-color: rgba(0, 0, 0, 0.38);
+}
+/*CONTROLING THE NAVBAR ITEMS BACKGROUND ON HOOVERING(LIST ITEMS NOT BUTTONS)*/
+body section#banner div.bg-color nav.navbar-default div.container-fluid div.collapse ul.nav li a:hover{
+  /*background-color: rgba(12, 184, 182, 0.21);*/
+  background-color: rgba(0, 0, 0, 0.38);
+}
+/*CONTROLING NAVBAR ITEMS FONT SIZE*/
+.navbar-default .navbar-nav >li>a{
+	font-size: 13px;
+}
+/*NAV COLLAPSE ON SCROLLING*/
+section#banner div.bg-color nav.navbar.navbar-default.navbar-fixed-top.nav-on-scrol{
+	padding: 0px;
+	background:rgba(0, 0, 0, 0.68); ;
+}
+
+/*NOW BANNER*/
+/*BANNER CODE IS IN THE BOTTOM OF THE NAVBAR*/
+/*BANNER CONTAIN THE PSUT LOGO WITH ASIMPLE DISCRIBTION AND ABUTTON TO GO TO ABOUT US PAGE*/
+/*PADDING THE BANNER FROM THE TOP OF THE PAGE*/
+.banner-info{
+	padding-top: 190px;
+}
+/*TO CENTER THE PSUT-LOGO */
+.banner-logo img{
+	display: inline-block;
+}
+/*THE BANNER TEXT COLOR*/
+.banner-text{
+	color: :#fff;
+}
+/*CLASS TO GIVE TO ANY ELEMENT WE WANT TO CHANGE IT FONT TO WHITE*/
+/*ITS GIVIN TO THE PARAGRAPH IN THE BANNER*/
+.white{
+	color:#fff;
+}
+/*CONTROLING THE PROPRTIES BUTTON THAT IS INSIDE THE BANNER  */
+a.btn-about,a.btn-about:hover{
+	margin-top: 30px;
+	padding: 10px 30px;
+	font-size:12px;
+	background-color: rgba(12, 184, 255, 0.31);
+	border-radius: 3px;
+	color: #fff;
+}
+
+/*NOW INTRO*/
+/*PADDING BETWEEN EACH SECTION*/
+.section-padding{
+	padding: 90px 0px;
+}
+/*PADE HEADER CLASS (USED FOR EACH SECTION TO PLACE THE HEADER IN)*/
+.page-header{
+	border:0;
+	width: 120px;
+}
+/*PAGE HEADER FONT*/
+.page-header h2{
+	font-size: 34px;
+}
+/*NOW PSUT-COURSES*/
+/*COURSES SECTION BACKGROUND*/
+section#psut-courses{
+	background-color: white;
+}

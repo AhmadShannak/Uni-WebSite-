@@ -1,0 +1,141 @@
+<!--NAV SCRIPT ON SCROLLING CHANGE CLASSES-->
+<script>
+	window.onscroll = function() {myFunction()};
+	function myFunction() {
+	    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+	        document.getElementById("psut-nav").className = "navbar navbar-default navbar-fixed-top nav-on-scrol";
+	    } else {
+	        document.getElementById("psut-nav").className = "navbar navbar-default navbar-fixed-top";
+	    }
+}
+</script>
+<!--/NAV SCRIPT-->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Home.CSS">
+	<!--BootStrap Librarries-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--MOBILE RESPONSE LIBRARY-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--JQUERY LIBRARY-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--JSCRIPT LIBRARY-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--BootStrap Librarries-->
+    <!--Font Family-->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Oxygen" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+
+<body >
+	<!--FIRST PART-->
+	<section id="banner" class="banner">
+		<div class="bg-color">
+			<!--PSUT BAR-->
+			<nav id="psut-nav" class="navbar navbar-default navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="col-md-12">
+						<!--Nav Header-->
+						<div class="navbar-header">
+							<!--Collapse Button-->
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<!--Each Span Repreasent A Dash In The Collpasing Navbar-->
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<!--Brand Goes Here-->
+							<a class="navbar-brand navbar-left" href="Home.html">
+								<!--IMG LINK and style-->
+								<!--<img src="psut-logo.png" class="img-responsive " style="margin-top:-14px;width:75px;">-->
+							</a>
+							<a class="navbar-brand" href="Home.html">PSUT Courses Gateway</a>
+						</div>
+						<!--Right part of the nav-->
+						<div class="collapse navbar-collapse navbar-right" id="myNavbar">
+							<!--The Ul That Contain The Right Nav Elements -->
+							<!--Dont Forget To Set Whats The Active One Through Each Page-->
+							<ul class="nav navbar-nav">
+								<li class="active">
+									<a href="Home.html" id="home">Home</a>
+								</li>
+								<li class="">
+									<a href="Courses.html">Courses</a>
+								</li>
+								<li class="">
+									<a href="Signup.html">SignUp</a>
+								</li>
+								<li>
+									<!--Missing the function for pop up-->
+									<a href=""> Login</a>
+								</li>
+							</ul>
+						</div>
+				</div>
+				</div>
+			</nav>
+			<!--/PSUT BAR-->
+			<!--PSUT BANNER-->
+			<div class="container">
+				<div class="row">
+					<div class="banner-info">
+						<!--BANNER LOGO-->
+						<div class="banner-logo text-center">
+							<img src="PSUT.png" alt="PRINCES SUMIA LOGO" style="width: 250px;" class="img-responsive">
+						</div>
+						<!--BANNER HEADER AND PARAGRAPH-->
+						<div class="banner-text text-center">
+							<h1 class="white">We Work For A Brighter Tomorrow</h1>
+							<p class="white">
+								We have a vision , that all of us if we work hand by hand with a pure heart 
+								<br>
+								we can change the present that we know to a brighter tomorrow.
+							</p>
+							<!--BANNER BUTTON-->
+							<a href="Aboutus.html" class="btn btn-about">More About Us</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/PSUT BANNER-->
+		</div>
+	</section>
+	<!--SECOND PART (INTRO PART)-->
+	<section id="psut-intro" class="section-padding">
+		<div class="container" >
+			<div class="row">
+				<div class="col-md-12">
+					<div class="page-header" style="border-bottom: 3px solid #B5D12A;">
+						<h2> Intro</h2>
+					</div>
+					<div class="col-md-3">
+						aspjgpa
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!--THIRD PARY (OUR COURSES PART)-->
+	<section id="psut-courses">
+		<div class="container">
+			<div class="row">
+				<div class="page-header" style="border-bottom: 3px solid #B5D12A">
+					<h2>Courses</h2>
+				</div>
+				<div class="col-md-3">
+						<p>We offer courses to help , our student develop thier knowledge and to keep in touch with the most modern science. </p>
+						<p>Here is a quick look on afew of the courses we offer</p>
+				</div>
+				<div class="col-md-3 col-md-offset-2">
+					dklashgdilgh
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
