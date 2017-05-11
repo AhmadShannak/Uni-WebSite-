@@ -103,16 +103,45 @@ a.btn-about,a.btn-about:hover{
 /*NOW INTRO*/
 /*PADDING BETWEEN EACH SECTION*/
 .section-padding{
-	padding: 90px 0px;
+	padding: 60px 0px;
+}
+/*BACKGROUND COLOR FOR THE INTRO SECTION*/
+section#psut-intro{
+	background: white;
 }
 /*PADE HEADER CLASS (USED FOR EACH SECTION TO PLACE THE HEADER IN)*/
-.page-header{
+section#psut-intro h2{
 	border:0;
 	width: 120px;
+	color:#222222;
+	line-height: 20px;
+	margin: 0;
+	
 }
-/*PAGE HEADER FONT*/
-.page-header h2{
-	font-size: 34px;
+/*PARAGRAPH IN PSUT INTRO FONT*/
+section#psut-intro div.col-md-4{
+	color: #999999;
+	font-family: 'Raleway', sans-serif;
+}
+/**/
+section#psut-intro hr{
+	height: 3px;
+	width: 120px;
+	background:#ffb377;
+	border: 0;
+	margin:20px 0px 20px 0px;
+}
+#acadimics-img{
+	margin-bottom: 20px;
+}
+section#psut-intro div h4{
+	color:#222222;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.marg-bot{
+	margin-bottom: 20px;
 }
 /*NOW PSUT-COURSES*/
 /*COURSES SECTION BACKGROUND*/
