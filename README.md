@@ -3,6 +3,7 @@ Ver0.0.4 : (HOMEPAGE FINISHED)
            
            1.Added A A Full Footer Section.
            2.Added A Button To Go To The Courses Page To See More Courses , In The Courses Section.
+           3.Added A Font Awesome Library To The Project (Physical Copy) And Linked In The Head.
 Ver0.0.3 :  (MODIFED)
 
             *Fixed A Bug Where The Courses Wernt Alligned
