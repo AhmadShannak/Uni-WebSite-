@@ -1,4 +1,10 @@
 # Uni-WebSite-
+Ver0.0.5 : (MODIFED)
+
+           1.Added Navbar To The Login Page.
+           2.Added Forgot My Password To The Login Page.
+           3.Added Dont Have An Account Yet To The Login Page.
+           4.Added A Login Quick Link In The Fotter.
 Ver0.0.5 : 
            
            1.Added A Login Page + Its Linked With The Home Page.
