@@ -1,0 +1,56 @@
+body{
+	background-image: url("bg-banner3.jpg") ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	min-height: 650px;
+}
+div.container{
+	background-color: rgba(5, 0, 0, 0.78);
+	min-height: 680px;
+	min-width: 100%;
+}
+/**/
+.sign-in-form{
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+	height: auto;
+}
+form.sign-in-form h2{
+	color:black;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	color:white;
+}
+form.sign-in-form input[type="email"]{
+	margin-bottom: -1px;
+	height: auto; 
+	padding: 12px;
+	font-size: 16px;
+	border-radius: 0;
+}
+form.sign-in-form input[type="password"]{
+	margin-bottom: 0px;
+	height: auto; 
+	padding: 12px;
+	font-size: 16px;
+	border-radius: 0;
+
+
+}
+
+div.checkbox label#remember-me-check{
+	margin-bottom: 20px;
+	color:white;
+}
+div.container{
+	padding-top: 40px;
+}
+#signin-btn{
+	padding: 15px;
+	font-weight: 550;
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+}
