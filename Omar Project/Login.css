@@ -6,24 +6,62 @@ body{
 	position: relative;
 	min-height: 650px;
 }
+/****************************************************************************************************/
+/*NAV PROPRTIES*/
+/*CONTROLING THE FONT COLOR OF THE NAVBAR BRAND*/
+nav.navbar-default div.container-fluid div.col-md-12 div.navbar-header a.navbar-brand{
+	/*color: rgb(130,70,83);*/
+	color:#fff;
+}
+/*CONTROLING THE NAVBAR ITEMSS (COLORING+TEXT TRANSFORM)*/
+nav.navbar-default div.container-fluid div.collapse ul.nav li a{
+	color:#fff;
+	text-transform: uppercase;
+
+}
+/* CONTROLING NAVBAR BRAND FONT*/
+nav.navbar-default div.container-fluid div.col-md-12 div.navbar-header a.navbar-brand{
+	font-size:20px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/*BACK GROUND OF THE NAVBAR */
+nav.navbar-default {
+    background-color: transparent;
+    border: 0px;
+    padding: 20px 0px;
+    transition: all 0.3s;
+}
+/*CONTROLING THE FONT SIZE AND ALLIGN OF THE GO BACK BUTTON ON THE NAV*/
+i.fa{
+	font-size: 45px;
+	text-align: center;
+}
+a:hover i.fa {
+		color:#337ab7;
+}
+/****************************************************************************************************/
+/*BACK GROUND COLOR*/
 div.container{
 	background-color: rgba(5, 0, 0, 0.78);
 	min-height: 680px;
 	min-width: 100%;
 }
-/**/
+/*FORM PROPRTIES*/
 .sign-in-form{
 	max-width: 330px;
 	padding: 15px;
 	margin: 0 auto;
 	height: auto;
 }
+/*FORM HEADER*/
 form.sign-in-form h2{
 	color:black;
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 700;
 	color:white;
 }
+/*FORM INPUT EMAIL*/
 form.sign-in-form input[type="email"]{
 	margin-bottom: -1px;
 	height: auto; 
@@ -31,26 +69,31 @@ form.sign-in-form input[type="email"]{
 	font-size: 16px;
 	border-radius: 0;
 }
+/*FORM INPUT PASS*/
 form.sign-in-form input[type="password"]{
 	margin-bottom: 0px;
 	height: auto; 
 	padding: 12px;
 	font-size: 16px;
 	border-radius: 0;
-
-
 }
-
+/*FORM REMEMBER ME CHECKBOX*/
 div.checkbox label#remember-me-check{
 	margin-bottom: 20px;
 	color:white;
 }
+/*FORM PADDING FROM THE TOP OF THE PAGE*/
 div.container{
 	padding-top: 40px;
 }
+/*SIGN IN BUTTON*/
 #signin-btn{
 	padding: 15px;
 	font-weight: 550;
 	font-size: 16px;
 	font-family: 'Oxygen', sans-serif;
+}
+/*padding whats under the sign in button*/
+#no-acc{
+	margin-top: 29px;
 }
