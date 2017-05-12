@@ -19,7 +19,10 @@ body section#banner div.bg-color{
 }
 /*CONTROLING BACK GROUND IMG*/
 #banner{
-	background: url(https://bootstrapmade.com/demo/themes/Medilab/img/bg-banner.jpg) no-repeat fixed;
+	/*background: url(https://bootstrapmade.com/demo/themes/Medilab/img/bg-banner.jpg) no-repeat fixed;*/
+	background-image: url("bg-banner3.jpg") ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
 	position: relative;
 	min-height: 650px;
