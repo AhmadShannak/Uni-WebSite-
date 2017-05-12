@@ -178,3 +178,97 @@ section#psut-courses div.col-md-3 div.thumbnail div.caption p{
 	font-family: 'Oxygen', sans-serif;
 
 }
+#footer{
+	background-color: #303030;
+}
+/*********************************************************************************/
+/*NOW FOOTER*/
+/*PADDING THE FOOTER FROM TOP AND BOT */
+#top-part-of-the-footer{
+	padding: 40px 0px;
+	border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+/*CONTRILING THE UL ELEMENTS UNDERLINE IN THE QUICK LINKS PART*/
+footer div ul li{
+	list-style: none;
+}
+/*SHAPE AND SIZE OF EACH FA ICON IN THE FOLLOW US PART*/
+footer div ul li i.fa{
+	font-size:8px;
+	width:15px;
+	height: 18px;
+	line-height: 15px;
+	text-align: left;
+	color: white;
+}
+/*DECORATION FOR EACH A IN LI IN THE FOOTER*/
+footer div ul li a{
+	text-decoration: none;
+	color:white;
+}
+/*HOOVERING ON THE ELEMENTS IN THE QUICK LINKS SECTION*/
+footer div ul li a:hover{
+	color:white;
+}
+/*CONTROLING THE HEIGHT OF THE HEADER IN EACH DIV.COL-MD-4 */
+.footers-headers-height h4{
+	height: 40px;
+	font-family: 'Oxygen', sans-serif;
+}
+/*PARAGRAPH IN THE CONTACT US SECTION IN THE FOOTER*/
+.footer-content p{
+	font-family: 'Raleway', sans-serif;
+}
+/*FONT OF THE LI A ELEMENTS (QUICK LINKS CONTENT)*/
+.footer-content li a{
+	font-family: 'Raleway', sans-serif;
+}
+/*SOCIAL MEDIA PART*/
+/*SYSTEM BEHIND THE SHAPE OF THE BACK GROUND FOR EACH ONE OF THE SOCIAL MEDIA + THE FLOATING OF THEM + THE SIZE OF THEM + THE ALLIGN OF THE
+ITEMS IN THE FOOTER*/
+div.social-media ul li {
+	float:left;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin-right: 10px;
+}
+/*FB BACKGROUND*/
+div.social-media ul li#fb{
+	background-color: #3b5998;
+}
+/*TWITTER BACKGROUND*/
+div.social-media ul li#twitter{
+	background-color: #fff;
+}
+/*TWITTER BIRD COLOR*/
+div.social-media ul li#twitter i.fa{
+	background-color: #fff;
+	color:#1da1f2;
+}
+/*GOOGLE PLUS BACKGROUND*/
+div.social-media ul li#google-plus {
+	background-color: #db4437;
+}
+/*YOUTUBE BACKGROUND*/
+div.social-media ul li#youtube {
+	background-color: #e52d27;
+}
+/*FOR ALL OF THE FA IN THE FOOTER (THE SIZE OF EACH BIRD OR F LETTER OR G+ AND SO ON + THE ALLIGN)*/
+div.social-media ul li i.fa{
+	font-size:18px;
+	text-align: center;
+}
+/******************************************************************************/
+/*BOTTOM OF THE FOOTER*/
+/*COPY RIGHTS*/
+#bottom-part-of-the-footer{
+	padding:40px 0px;
+
+}
+#bottom-part-of-the-footer div.col-md-12 a{
+	text-decoration: none;
+	color: white;	
+}
+
