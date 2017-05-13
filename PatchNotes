@@ -1,4 +1,9 @@
 # Uni-WebSite-
+Ver0.0.6 : 
+
+           1.Added A Sign Up Page That Work Full Functional(As Long As The Width Of The Screen > 390 ).
+           2.Fixed A Navbar Bug Where Home Element Is Always Active. 
+           *PAGE PAUSE ON WIDTH 390 (YOU CANT GO SMALLER THAN 390) ANYMORE*
 Ver0.0.5 : (MODIFED)
 
            1.Added Navbar To The Login Page.
