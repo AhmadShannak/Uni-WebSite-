@@ -1,0 +1,222 @@
+<!--NAV SCRIPT ON SCROLLING CHANGE CLASSES-->
+<script>
+	window.onscroll = function() {myFunction()};
+	function myFunction() {
+	    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+	        document.getElementById("psut-nav").className = "navbar navbar-default navbar-fixed-top nav-on-scrol";
+	    } else {
+	        document.getElementById("psut-nav").className = "navbar navbar-default navbar-fixed-top";
+	    }
+}
+</script>
+<!--/NAV SCRIPT-->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Home.CSS">
+	<!--SIGN UP SPEACIAL CSS-->
+	<link rel="stylesheet" type="text/css" href="Signup.CSS">
+	<!--BootStrap Librarries-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--MOBILE RESPONSE LIBRARY-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--JQUERY LIBRARY-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--JSCRIPT LIBRARY-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--BootStrap Librarries-->
+    <!--Font Family-->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Oxygen" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="C:\Users\zekke\Desktop\Omar Project\font-awesome-4.7.0\css\font-awesome.min.css">
+</head>
+
+<body >
+	<!--FIRST PART-->
+	<section id="banner" class="banner">
+		<div class="bg-color">
+			<!--PSUT BAR-->
+			<nav id="psut-nav" class="navbar navbar-default navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="col-md-12">
+						<!--Nav Header-->
+						<div class="navbar-header">
+							<!--Collapse Button-->
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<!--Each Span Repreasent A Dash In The Collpasing Navbar-->
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<!--Brand Goes Here-->
+							<a class="navbar-brand navbar-left" href="Home.html">
+								<!--IMG LINK and style-->
+								<!--<img src="psut-logo.png" class="img-responsive " style="margin-top:-14px;width:75px;">-->
+							</a>
+							<a class="navbar-brand" href="Home.html">PSUT Courses Gateway</a>
+						</div>
+						<!--Right part of the nav-->
+						<div class="collapse navbar-collapse navbar-right" id="myNavbar">
+							<!--The Ul That Contain The Right Nav Elements -->
+							<!--Dont Forget To Set Whats The Active One Through Each Page-->
+							<ul class="nav navbar-nav">
+								<li class="">
+									<a href="Home.html" >Home</a>
+								</li>
+								<li class="">
+									<a href="Courses.html">Courses</a>
+								</li>
+								<li class="active">
+									<a href="Signup.html">SignUp</a>
+								</li>
+								<li>
+									<!--Missing the function for pop up-->
+									<a href="Login.html"> Login</a>
+								</li>
+							</ul>
+						</div>
+				</div>
+				</div>
+			</nav>
+			<!--/PSUT BAR-->
+			<!--PSUT BANNER-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 ">
+						<div class="div-form-padding">
+							<form class="sign-up-form">
+								<!--FORM HEADER-->
+								<div class="header">
+									<h2 id="form-header">Registration Form</h2>
+								<div>
+								<!--ENTER YOUR NAME-->
+								<div>
+									<label class="form-labels" for="full-name">Full Name</label>
+									<input class="form-inputs" type="text" id="full-name"  name="full-name-input" placeholder="Full Name" required autofocus>
+									<span class="help-block">First Name , Last Name , Eg : Ahmad Khaled</span>
+								</div>
+								<!--Email-->
+								<div>
+									<label class="form-labels" for="Email">Email</label>
+									<input class="form-inputs email" type="email" id="Email"  name="email-input" placeholder="Email" required >
+									<span class="help-block">Example@hotmail.com</span>
+								</div>
+								<!--PASSWORD-->
+								<div>
+									<label class="form-labels" for="Password">Password</label>
+									<input class="form-inputs pass" type="password" id="Password"  name="password-input" placeholder="Password" required maxlength="40" minlength="8" >
+									<span class="help-block">8-character minimum; case sensitive</span>
+								</div>
+								<!--Gender-->
+								<div>
+									<label class="form-labels" for="Gender">Gender</label>
+									<div class="gr">
+										<!--MALE?-->
+										<span class="padd-right">
+											<input type="radio" name="gender" value="1">
+											<label> Male</label>
+										</span>
+										<!--FEMALE?-->
+										<span class="padd-right">
+											<input type="radio" name="gender" value="2">
+											<label> Female</label>
+										</span>
+									</div>
+								</div>
+								<!--SIGN UP BUTTON-->
+								<button class="btn btn-primary">Sign Up</button>
+								<span class="terms">
+									 	<label style="padding-top: 25px; padding-bottom: -15px;">Clicking Sign Up means that you agree to our ServicesAgreement and privacy
+									  and cookies statement.</label>
+								</span>
+								
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/PSUT BANNER-->
+		</div>
+	</section>
+	
+	<!--FOOTER SECTION-->
+	<footer id="footer">
+		<div id="top-part-of-the-footer">
+			<div class="container">
+				<div class="row">
+					<!--CONTACT US IN THE FOOTER-->
+					<div class="col-md-4">
+						<!--HEADER OF THE CONTACT US-->
+						<div class="footers-headers-height">
+							<h4 class="white">Contact Us</h4>
+						</div>
+						<!--CONTENT OF THE CONTACT US-->
+						<div class="footer-content">
+							<p class="white footer-content" >
+								Princess Sumaya University for Technology (PSUT)<br>
+								Amman 11941 Jordan<br>
+								P.o.Box 1438 Al-Jubaiha<br>
+								Call: (+962) 6-5359 949<br>
+								Fax: (+962) 6-5347 295<br>
+								Email: info@psut.edu.jo<br>
+							</p>
+						</div>
+					</div>
+					<!--QUICK LINKS IN THE FOOTER-->
+					<div class="col-md-4">
+						<!--HEADER FOR THE QUICK LINKS-->
+						<div class=footers-headers-height>
+							<h4 class="white">Quick Links</h4>
+						</div>
+						<!--LINKS THEM SELFS(CONTENT OF THE QUICK LINKS)-->
+						<div>
+							<ul class="footer-content">
+								<li class="white"><a href="Home.html"><i class="fa fa-circle"></i>Home</a></li>
+								<li class="white"><a href="Courses.html"><i class="fa fa-circle"></i>Courses</a></li>
+								<li class="white"><a href="Signup.html"><i class="fa fa-circle"></i>SignUp</a></li>
+								<li class="white"><a href="Login.html"><i class="fa fa-circle"></i>Login</a></li>
+								<li class="white"><a href="AboutUs.html"><i class="fa fa-circle"></i>About Us</a></li>
+								<li class="white"><a href="http://www.psut.edu.jo/"><i class="fa fa-circle"></i>University</a></li>
+							</ul>
+						</div>
+					</div>
+					<!--FOLOW US IN THE FOOTER-->
+					<div class="col-md-4">
+						<!--HEADER FOR THE FOLLOW US-->
+						<div class="footers-headers-height">
+							<h4 class="white">Follow Us</h3>
+						</div>
+						<!--FOLLOW US CONTENT(BUTTONS)-->
+						<div class="social-media">
+							<ul>
+								<li id="fb"><a href="https://www.facebook.com/PSUTOFFICIAL"><i class="fa fa-facebook"></i></a></li>
+								<li id="twitter"><a href="https://twitter.com/psutjo"><i class="fa fa-twitter"></i></a></li>
+								<li id="google-plus"><a href="https://plus.google.com/114618522801593038497"><i class="fa fa-google-plus"></i></a></li>
+								<li id="youtube"><a href="https://www.youtube.com/user/PSUTUniversityoffici"><i class="fa fa-youtube"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--COPY RIGHT PART-->
+		<div id="bottom-part-of-the-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center white">
+						© Copyright Princess Sumia University. All Rights Reserved
+						<br>
+						Designed by <a href="https://outlook.live.com/owa/">Ahmad Shannak</a>
+					</div>
+				</div>
+			</div>
+		</div >
+	</footer>
+</body>
+</html>

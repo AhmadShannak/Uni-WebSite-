@@ -54,7 +54,7 @@ body section#banner div.bg-color nav.navbar-default div.container-fluid div.coll
 
 }
 /*CONTROLING THE BACK GROUND OF THE HOME BUTTON ON THE NAVBAR*/
-body section#banner div.bg-color nav.navbar-default div.container-fluid div.collapse ul.nav li a#home{
+body section#banner div.bg-color nav.navbar-default div.container-fluid div.collapse ul.nav li.active a{
    /*background-color: rgba(12, 184, 182, 0.21);*/
    background-color: rgba(0, 0, 0, 0.38);
 }

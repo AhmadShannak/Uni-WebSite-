@@ -1,0 +1,71 @@
+/*FORM PADDING FROM THE TOP*/
+.div-form-padding{
+	padding-top: 130px;
+
+}
+/*CONTROLING HEADER PROPRTIES*/
+form h2#form-header{
+	color: white;
+	font-family: 'Oxygen', sans-serif;
+	padding-left:22px;
+	padding-bottom: 35px;
+
+}
+/*LABELS INSIDE THE FORM SUCH AS FULL NAME ANDS SO ON*/
+.form-labels{
+	color:white;
+	margin-top: 15px;
+	
+	margin-left: 25px;
+	text-align: center;
+	padding-right: 10px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+
+}
+/*INPUT ISIDE THE FORM*/
+.form-inputs{
+	padding: 7px;
+	width: 67%;
+	color:black;
+
+}
+/*SIGN UP FORM WIDTH IN CASE IWANT TO CENTER IT (NOT HELPFULL ANYMORE)*/
+.sign-up-form{
+	min-width: 380px;
+}
+/*HELP BLOCKS PADDING LEFT TO ALIGN WITH INPUTS FIELDS*/
+.help-block{
+	padding-left: 132px;
+}
+/*EMAIL INPUT */
+.email{
+	margin-left: 37px;
+}
+/*PASS INPUT*/
+.pass{
+	margin-left:3px;
+}
+/*RADIO*/
+.gr{
+	display: inline;
+	margin-left:22px;
+}
+/*PADD RIGHT CLASS */
+span.padd-right{
+	padding-right: 20px;
+}
+/*TERMS MARGIN*/
+.terms{
+	margin-left: 25px;
+
+}
+/*CONTROLING BUTTON*/
+.btn{
+	margin-top: 35px;
+	margin-left: 3%;
+	width: 86%;
+	height: 55px;
+	font-family: 'Oxygen', sans-serif;
+
+}
